@@ -1,0 +1,103 @@
+@charset "utf-8";
+@import "./mixins/mixins";
+$img-path: "../img";
+@charset "utf-8";
+
+// Color Variables
+// --------------------------------------------------
+
+// Site Theme Colors
+// -------------------
+$gray:                 #a1a1a1 !default;
+$gray-lighter:         lighten($gray, 13.5%) !default;
+$gray-darker:          darken($gray, 93.5%)  !default;
+
+$brand-red:            #e50012 !default;
+$brand-pink:           #f8b3b9 !default;
+
+$brand-brawn:          #611012 !default;
+$brand-orange:         #e6b400 !default;
+$brand-yellow:         #feda34 !default;
+
+$brand-blue:           #3ca1db !default;
+$brand-green:          #17b6a5 !default;
+$brand-orange:         #eea452 !default;
+$brand-purple:         #5558a3 !default;
+$brand-gray:           $gray !default;
+$brand-black:           #000 !default;
+$brand-white:           #fff !default;
+
+// Base Colors
+// -------------------
+
+$main-color:            #ccc !default;
+$sub-color:             #ccc !default;
+
+$body-bg:               #fff !default;
+$text-color:            #080808 !default;
+
+$border-color:          $gray-lighter !default;
+
+// Link Colors
+// -------------------
+$link-color:             $gray !default;
+$link-hover-color:       darken($link-color, 15%) !default;
+$hover-bg:               $gray-lighter !default;
+
+
+// Parts Colors
+// -------------------
+
+
+
+// フォントファミリー
+// -------------------------
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif: Georgia, "Times New Roman", Times, serif;
+$font-system: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", MyYuGothicM, Meiryo, sans-serif;
+$font-family-yugothic: MyYuGothicM, YuGothic, -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+$font-family-base: $font-family-yugothic;
+
+
+// フォントサイズ
+
+// -------------------------
+$screen-fsize-sm:   16;
+$screen-fsize-md:   16;
+$screen-fsize:      16;
+
+// line-height
+// -------------------------
+$line-height-sm:   1.7;
+$line-height-md:   1.7;
+$line-height:      1.7;
+
+
+
+// border-radius
+// -------------------------
+$border-radius-sm:   6;
+$border-radius-md:   6;
+$border-radius:      6;
+
+
+
+// レスポンシブ幅設定
+// -------------------------
+
+$screen-lg:         1460;
+$screen:            1020;
+$screen-tab:        768;
+$screen-sp:         375;
+
+$screen-md-max:     ($screen - 1);         // Medium screen Max
+$screen-md-min:     $screen-tab;           // Medium screen Min
+$screen-sm-max:     ($screen-md-min - 1);  // Small screen  Max
+$screen-sm-min:     $screen-sp;            // Small screen  Min
+
+$sp:           max-width ($screen-sm-max / 16) + em;
+$tab-min:      min-width ($screen-md-min / 16) + em;
+$tab:          max-width ($screen-md-max / 16) + em;
+$tab-min-max:  $tab-min + $tab;
+$pc:           min-width ($screen / 16) + em;
+$pc-lg:        min-width ($screen-lg / 16) + em;

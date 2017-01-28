@@ -1,0 +1,9 @@
+@charset "utf-8";
+// @ Text Link
+// ------------------------------------------------------------
+@mixin txt-line($style:none, $h-style:none) {
+  text-decoration: $style;
+  &:hover {
+    text-decoration: $h-style;
+  }
+}
