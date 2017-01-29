@@ -1,0 +1,10 @@
+body{
+	background:url('http://hatenablog.nakedleafdesign.com/blog01/assets/img/common/blog01_headerbg.jpg')!important;
+}
+@media only screen and (max-width: $tab) {
+	body{
+		background:url('http://hatenablog.nakedleafdesign.com/blog01/assets/img/common/blog01_headerbg.jpg')!important;
+		background-size:auto;
+	}
+}
+

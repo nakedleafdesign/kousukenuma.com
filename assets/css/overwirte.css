@@ -1,0 +1,43 @@
+body {
+  background: url("http://hatenablog.nakedleafdesign.com/blog01/assets/img/common/blog01_headerbg.jpg") !important; }
+
+@media only screen and (max-width: max-width 63.6875em) {
+  body {
+    background: url("http://hatenablog.nakedleafdesign.com/blog01/assets/img/common/blog01_headerbg.jpg") !important;
+    background-size: auto; } }
+.hatena-module-title {
+  border-left: 5px solid #323f79; }
+
+#blog-title-content {
+  padding: 220px 0 0;
+  background: url("http://hatenablog.nakedleafdesign.com/blog01/assets/img/common/main-visual_bg.png") no-repeat !important; }
+  #blog-title-content #title,
+  #blog-title-content #blog-description {
+    display: none; }
+
+.entry .entry-header {
+  border-bottom: solid 2px #999; }
+
+.entry-content h3 {
+  border-left: 5px solid #323f79;
+  padding: 8px 16px; }
+.entry-content h4 {
+  border-bottom: 5px solid #f6f6f6;
+  padding: 0 12px 6px; }
+.entry-content hr {
+  margin: 40px 0; }
+.entry-content p {
+  font-size: 15px;
+  margin-bottom: 1em;
+  line-height: 1.8; }
+.entry-content strong {
+  border-bottom: solid 3px #feda34; }
+.entry-content .entry-see-more {
+  background-color: #323f79; }
+
+@media only screen and (max-width: max-width 63.6875em) {
+  .entry-content h1 {
+    border-left: 5px solid #105F80;
+    padding: 8px 5px 8px 10px; } }
+.entry-content h1 {
+  border-left: 5px solid #105F80 !important; }
